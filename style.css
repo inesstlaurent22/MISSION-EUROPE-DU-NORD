@@ -33,5 +33,9 @@ body, html {
 }
 
 .clique:hover {
-  background-color: #transparent;
+  background-color: transparent;
+  color: #ffcc99;
+  border-color: #ffcc99;
+  box-shadow: 0 0 15px #ffcc99, 0 0 30px #ffcc99;
+  transform: translate(-50%, -50%) scale(1.05);
 }
