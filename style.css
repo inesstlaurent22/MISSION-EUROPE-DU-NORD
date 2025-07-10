@@ -23,7 +23,7 @@ body, html {
   left: 449px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
-  background-color: #000;
+  background-color: transparent;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -33,5 +33,5 @@ body, html {
 }
 
 .clique:hover {
-  background-color: #8c4e0f;
+  background-color: #transparent;
 }
