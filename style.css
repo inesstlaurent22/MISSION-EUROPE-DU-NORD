@@ -8,6 +8,7 @@ body, html {
 .fond1-container {
   width: 100%;
   overflow-y: auto;
+  background-color: black;
 }
 
 /* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
