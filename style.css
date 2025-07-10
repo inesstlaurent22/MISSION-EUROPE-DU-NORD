@@ -1,1 +1,18 @@
+/*Fond1 */
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
+/* Conteneur de l'image */
+.fond1-container {
+  width: 100%;
+  overflow-y: auto;
+}
+
+/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
+.fond1-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
