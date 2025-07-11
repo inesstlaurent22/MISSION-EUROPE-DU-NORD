@@ -1,14 +1,17 @@
 document.getElementById('transitionButton').addEventListener('click', function () {
-  // Affiche la vidéo de transition
   const videoContainer = document.getElementById('transitionVideoContainer');
   const video = document.getElementById('transitionVideo');
+
+  // Affiche la vidéo
   videoContainer.style.display = 'block';
 
-  // Lance la vidéo (si elle n’est pas déjà en autoplay)
-  video.play();
+  // Lance la vidéo
+  video.play().catch(error => {
+    console.error('Erreur de lecture automatique:', error);
+  });
 
-  // Quand la vidéo est terminée, redirige vers la nouvelle page
+  // Quand la vidéo est terminée, redirige
   video.onended = function () {
-    window.location.href = 'menu.html';
+    window.location.href = 'menu.html'; // change vers la page que tu veux
   };
 });
