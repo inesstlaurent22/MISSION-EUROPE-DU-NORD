@@ -22,14 +22,14 @@ html, body {
 
 /* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
 .fond1-image {
-  width: 92px;
-  height: 63px;
+  width: 198px;
+  height: 225px;
   display: block;
 }
 .clique {
   position: absolute;
-  top: 888px;
-  left: 449px;
+  top: 845px;
+  left: 375px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
   background-color: transparent;
