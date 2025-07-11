@@ -6,9 +6,10 @@ document.getElementById('transitionButton').addEventListener('click', function (
   baleineContainer.style.display = 'block';
 
   // Joue la vidéo
-  baleine.play().catch(error => {
-    console.error('Erreur de lecture automatique :', error);
-  });
+baleineContainer.style.display = 'block';
+setTimeout(() => {
+  window.location.href = 'rotterdam.html';
+}, 3000);
 
   // Quand la vidéo est terminée, redirige vers une autre page
   baleine.onended = function () {
