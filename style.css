@@ -4,7 +4,7 @@ body, html {
   padding: 0;
 }
 
-/* Conteneur de l'image */
+/* PAGE1 */
 .fond1-container {
   width: 100%;
   overflow-y: auto;
@@ -39,3 +39,16 @@ body, html {
   box-shadow: 0 0 15px #ffcc99, 0 0 30px #ffcc99;
   transform: translate(-50%, -50%) scale(1.05);
 }
+
+/* MENU */
+.fond1-container {
+  width: 100%;
+  overflow-y: auto;
+  background-color: black;
+}
+
+/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
+.fond1-image {
+  width: 92px;
+  height: 63px;
+  display: block;
