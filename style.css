@@ -61,8 +61,8 @@ html, body {
 
 .paris-button {
   position: absolute;
-  top: 150px; /* Ajuste cette valeur selon ton besoin */
-  left: 200px; /* Ajuste cette valeur aussi */
+  top: 809px; /* Ajuste cette valeur selon ton besoin */
+  left: 749px; /* Ajuste cette valeur aussi */
   transform: translate(-50%, -50%); /* Pour centrer exactement */
 }
 
