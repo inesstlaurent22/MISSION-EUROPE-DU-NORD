@@ -28,7 +28,7 @@ html, body {
 }
 .clique {
   position: absolute;
-  top: 495px;
+  top: 505px;
   left: 947px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
@@ -61,7 +61,7 @@ html, body {
 
 .paris-button {
   position: absolute;
-  top: 789px; /* Ajuste cette valeur selon ton besoin */
+  top: 719px; /* Ajuste cette valeur selon ton besoin */
   left: 769px; /* Ajuste cette valeur aussi */
   transform: translate(-50%, -50%); /* Pour centrer exactement */
 }
