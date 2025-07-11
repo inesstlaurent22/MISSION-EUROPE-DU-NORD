@@ -12,5 +12,5 @@ document.getElementById('transitionButton').addEventListener('click', function (
   // Adapter ce délai à la durée réelle de ta vidéo ralentie
   setTimeout(() => {
     window.location.href = 'rotterdam.html';
-  }, 4000); // ici : 4 secondes (à ajuster selon ta vidéo)
+  }, 1300); // ici : 4 secondes (à ajuster selon ta vidéo)
 });
