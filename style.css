@@ -61,8 +61,8 @@ html, body {
 
 .paris-button {
   position: absolute;
-  top: 50%; /* Ajuste cette valeur selon ton besoin */
-  left: 50%; /* Ajuste cette valeur aussi */
+  top: 150px; /* Ajuste cette valeur selon ton besoin */
+  left: 200px; /* Ajuste cette valeur aussi */
   transform: translate(-50%, -50%); /* Pour centrer exactement */
 }
 
@@ -88,7 +88,7 @@ html, body {
 
 .boutondroit {
   position: absolute;
-  top: 845px;
+  top: 600px;
   left: 375px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
@@ -106,8 +106,8 @@ html, body {
 }
 .boutongauche {
   position: absolute;
-  top: 845px;
-  left: 375px;
+  top: 300px;
+  left: 675px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
   background-color: transparent;
@@ -124,8 +124,8 @@ html, body {
 }
 .menu {
   position: absolute;
-  top: 845px;
-  left: 375px;
+  top: 245px;
+  left: 475px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
   background-color: transparent;
