@@ -54,6 +54,39 @@ html, body {
 
 /* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
 .fond2-image {
-  width: 92px;
-  height: 63px;
+  width: 75px;
+  height:25px;
   display: block;
+
+.paris {
+  position: absolute;
+  top: 809px;
+  left: 749px;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.paris:hover {
+  background-color: transparent;
+}
+
+/* ROTTERDAM */
+.Rotterdam-container {
+  width: 100%;
+  overflow-y: auto;
+  background-color: black;
+}
+
+/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
+.Rotterdam-image {
+  width: 198px;
+  height: 225px;
+  display: block;
+}
