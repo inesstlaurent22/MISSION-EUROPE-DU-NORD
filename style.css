@@ -67,7 +67,7 @@ html, body {
 }
 
 .paris-button img {
-  width: 100px; /* Taille du bouton, ajuste selon ton design */
+  width: 80px; /* Taille du bouton, ajuste selon ton design */
   height: auto;
   cursor: pointer;
 }
