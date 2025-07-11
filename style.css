@@ -146,8 +146,8 @@ html, body {
 
 /* BODO */
 body.bodo-page {
-cursor: url('https://cur.cursors-4u.net/games/gam-1/gam57.cur'), auto;
-}
+ cursor: url('https://cur.cursors-4u.net/games/gam-1/gam57.cur'), auto;
+  background-color: red;
 }
 
 .bodo-container {
