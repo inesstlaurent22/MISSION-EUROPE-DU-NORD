@@ -1,6 +1,6 @@
 document.getElementById('transitionButton').addEventListener('click', function () {
-  const videoContainer = document.getElementById('transitionVideoContainer');
-  const video = document.getElementById('transitionButton');
+  const baleineContainer = document.getElementById('transitionVideoContainer');
+  const video = document.getElementById('transitionVideo');
 
   // Affiche la vidéo
   baleineContainer.style.display = 'block';
