@@ -73,7 +73,7 @@ html, body {
   cursor: pointer;
 }
 
-.baleineOverlay {
+.baleine {
   display: none;
   position: fixed; /* fixe sur la fenêtre */
   top: 0;
@@ -84,7 +84,7 @@ html, body {
   background-color: black; /* facultatif */
 }
 
-.baleineOverlay img {
+.baleine img {
   width: 100%;
   height: auto;
   display: block;
