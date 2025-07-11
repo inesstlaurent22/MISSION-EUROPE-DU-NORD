@@ -92,6 +92,23 @@ html, body {
   display: block;
 }
 
+/* BODO */
+body.bodo-page {
+ cursor: url('images/Bouton/Loupegrande1.png'), 16 16, auto;
+}
+
+.bodo-container {
+  width: 100%;
+  overflow-y: auto;
+  background-color: black;
+}
+
+.bodo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ROTTERDAM */
 .rotterdam-container {
   width: 100%;
@@ -144,19 +161,3 @@ html, body {
   cursor: pointer;
 }
 
-/* BODO */
-body.bodo-page {
- cursor: url('images/Bouton/Loupegrande1.png'), 16 16, auto;
-}
-
-.bodo-container {
-  width: 100%;
-  overflow-y: auto;
-  background-color: black;
-}
-
-.bodo {
-  width: 100%;
-  height: auto;
-  display: block;
-}
