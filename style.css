@@ -102,8 +102,8 @@ html, body {
 /* Bouton droit */
 .boutondroit-button {
   position: absolute;
-  top: 50%;
-  right: 10%;
+  top: 1130px;
+  right: 1900px;
   transform: translateY(-50%);
 }
 
@@ -116,8 +116,8 @@ html, body {
 /* Bouton gauche */
 .boutongauche-button {
   position: absolute;
-  top: 50%;
-  left: 10%;
+  top: 0px ;
+  left: 1900px;
   transform: translateY(-50%);
 }
 
@@ -130,8 +130,8 @@ html, body {
 /* Bouton carte */
 .carte-button {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
+  top: 43px ;
+  left: 37px;
   transform: translateX(-50%);
 }
 
