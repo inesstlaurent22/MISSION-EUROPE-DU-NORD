@@ -94,7 +94,7 @@ html, body {
 
 /* BODO */
 body.bodo-page {
- cursor: url('images/Bouton/Loupegrande1.png'), 16 16, auto;
+ cursor: crosshair;
 }
 
 .bodo-container {
