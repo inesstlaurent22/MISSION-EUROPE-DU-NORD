@@ -46,14 +46,14 @@ html, body {
 }
 
 /* MENU */
-.carte-container {
+.menu-container {
   position: relative;
   width: 100%;
   max-width: 100%;
   overflow: hidden;
 }
 
-.carte {
+.menu {
   width: 100%;
   height: auto;
   display: block;
