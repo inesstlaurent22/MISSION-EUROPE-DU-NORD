@@ -107,7 +107,7 @@ html, body {
 .boutondroit-button {
   position: absolute;
   top: 1227px;
-  left: 1134px;
+  left: 1334px;
   transform: translateY(-50%);
 }
 
@@ -121,7 +121,7 @@ html, body {
 .boutongauche-button {
   position: absolute;
   top: 1227px ;
-  left: 0px;
+  left: 30px;
   transform: translateY(-50%);
 }
 
