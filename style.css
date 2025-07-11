@@ -145,3 +145,59 @@ html, body {
   height: 143px;
   cursor: pointer;
 }
+
+/* BODO */
+.bodo-container {
+  width: 100%;
+  overflow-y: auto;
+  background-color: black;
+}
+
+/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
+.bodo-image {
+  width: 198px;
+  height: 225px;
+  display: block;
+}
+
+/* Bouton droit */
+.boutondroit-button {
+  position: absolute;
+  top: 1227px;
+  left: 1434px;
+  transform: translateY(-50%);
+}
+
+.BD {
+  width: 106.79px;
+  height: 109px;
+  cursor: pointer;
+}
+
+/* Bouton gauche */
+.boutongauche-button {
+  position: absolute;
+  top: 1227px ;
+  left: 30px;
+  transform: translateY(-50%);
+}
+
+.BG {
+  width: 106.79px;
+  height: 109px;
+  cursor: pointer;
+}
+
+/* Bouton carte */
+.carte-button {
+  position: absolute;
+  top: 43px ;
+  left: 147px;
+  transform: translateX(-50%);
+}
+
+.carte {
+  width: 219.9px;
+  height: 143px;
+  cursor: pointer;
+}
