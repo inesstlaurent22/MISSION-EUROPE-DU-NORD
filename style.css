@@ -28,8 +28,8 @@ html, body {
 }
 .clique {
   position: absolute;
-  top: 375px;
-  left: 845px;
+  top: 425px;
+  left: 915px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
   background-color: transparent;
