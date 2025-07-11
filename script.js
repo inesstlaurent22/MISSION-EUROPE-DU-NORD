@@ -1,6 +1,6 @@
 document.getElementById('transitionButton').addEventListener('click', function () {
   const button = this;
-  const baleineContainer = document.getElementById('transitionVideoContainer');
+  const baleine-overlay = document.getElementById('transitionVideoContainer');
 
   // Désactive le bouton pour éviter plusieurs clics
   button.disabled = true;
@@ -8,7 +8,7 @@ document.getElementById('transitionButton').addEventListener('click', function (
   button.style.opacity = '0.6'; // Optionnel : effet visuel de désactivation
 
   // Affiche le GIF de transition
-  baleineContainer.style.display = 'block';
+  baleine-overlay.style.display = 'block';
 
   // Attends la durée du GIF avant de rediriger
   setTimeout(() => {
