@@ -75,12 +75,13 @@ html, body {
 
 .baleine-overlay {
   display: none;
-  position: absolute;
+  position: fixed; /* fixe sur la fenêtre */
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
-  z-index: 10; /* juste au-dessus du fond, en dessous de la nav si nécessaire */
+  height: 100vh; /* pleine hauteur écran */
+  z-index: 10; /* au-dessus du fond */
+  background-color: black; /* facultatif */
 }
 
 .baleine-overlay img {
