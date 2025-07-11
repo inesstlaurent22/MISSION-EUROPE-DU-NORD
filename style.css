@@ -28,7 +28,7 @@ html, body {
 }
 .clique {
   position: absolute;
-  top: 485px;
+  top: 495px;
   left: 947px;
   transform: translate(-50%, -50%);
   padding: 15px 30px;
@@ -61,7 +61,7 @@ html, body {
 
 .paris-button {
   position: absolute;
-  top: 829px; /* Ajuste cette valeur selon ton besoin */
+  top: 789px; /* Ajuste cette valeur selon ton besoin */
   left: 769px; /* Ajuste cette valeur aussi */
   transform: translate(-50%, -50%); /* Pour centrer exactement */
 }
@@ -83,19 +83,6 @@ html, body {
 .rotterdam-image {
   width: 198px;
   height: 225px;
-  display: block;
-}
-/* Conteneur principal */
-.rotterdam-container {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-}
-
-/* Image de fond */
-.fond3 {
-  width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -131,7 +118,7 @@ html, body {
 .carte-button {
   position: absolute;
   top: 43px ;
-  left: 117px;
+  left: 147px;
   transform: translateX(-50%);
 }
 
