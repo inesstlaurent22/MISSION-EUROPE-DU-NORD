@@ -104,7 +104,7 @@ html, body {
 .boutongauche-button {
   position: absolute;
   top: 1927px ;
-  left: 0px;
+  left: 200px;
   transform: translateY(-50%);
 }
 
