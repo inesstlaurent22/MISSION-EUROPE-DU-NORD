@@ -14,14 +14,14 @@ html, body {
 }
 
 /* PAGE1 */
-.fond1-container {
+.index-container {
   width: 100%;
   overflow-y: auto;
   background-color: black;
 }
 
 /* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
-.fond1-image {
+.index-image {
   width: 198px;
   height: 225px;
   display: block;
@@ -46,14 +46,14 @@ html, body {
 }
 
 /* MENU */
-.fond2-container {
+.menu-container {
   width: 100%;
   overflow-y: auto;
   background-color: black;
 }
 
 /* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
-.fond2-image {
+.menu-image {
   width: 75px;
   height:25px;
   display: block;
@@ -78,14 +78,14 @@ html, body {
 }
 
 /* ROTTERDAM */
-.Rotterdam-container {
+.rotterdam-container {
   width: 100%;
   overflow-y: auto;
   background-color: black;
 }
 
 /* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
-.Rotterdam-image {
+.rotterdam-image {
   width: 198px;
   height: 225px;
   display: block;
