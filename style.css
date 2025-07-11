@@ -1,14 +1,16 @@
-{
+/* Réinitialisation */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body
+/* Styles généraux */
+html, body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #000; /* fond noir si l'image ne couvre pas tout */
+  background-color: #000;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -20,12 +22,12 @@ html, body
   background-color: black;
 }
 
-/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
 .index-image {
   width: 198px;
   height: 225px;
   display: block;
 }
+
 .clique {
   position: absolute;
   top: 495px;
@@ -62,26 +64,26 @@ html, body
 
 .paris-button {
   position: absolute;
-  top: 849px; /* Ajuste cette valeur selon ton besoin */
-  left: 752px; /* Ajuste cette valeur aussi */
-  transform: translate(-50%, -50%); /* Pour centrer exactement */
+  top: 849px;
+  left: 752px;
+  transform: translate(-50%, -50%);
 }
 
 .paris-button img {
-  width: 80px; /* Taille du bouton, ajuste selon ton design */
+  width: 80px;
   height: auto;
   cursor: pointer;
 }
 
 .baleine {
   display: none;
-  position: fixed; /* fixe sur la fenêtre */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh; /* pleine hauteur écran */
-  z-index: 10; /* au-dessus du fond */
-  background-color: transparent; /* facultatif */
+  height: 100vh;
+  z-index: 10;
+  background-color: transparent;
 }
 
 .baleine img {
@@ -97,14 +99,12 @@ html, body
   background-color: black;
 }
 
-/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
 .rotterdam-image {
   width: 198px;
   height: 225px;
   display: block;
 }
 
-/* Bouton droit */
 .boutondroit-button {
   position: absolute;
   top: 1227px;
@@ -118,10 +118,9 @@ html, body
   cursor: pointer;
 }
 
-/* Bouton gauche */
 .boutongauche-button {
   position: absolute;
-  top: 1227px ;
+  top: 1227px;
   left: 30px;
   transform: translateY(-50%);
 }
@@ -132,10 +131,9 @@ html, body
   cursor: pointer;
 }
 
-/* Bouton carte */
 .carte-button {
   position: absolute;
-  top: 43px ;
+  top: 43px;
   left: 147px;
   transform: translateX(-50%);
 }
@@ -149,12 +147,6 @@ html, body
 /* BODO */
 body.bodo-page {
   cursor: url('images/Loupegrande.png'), auto;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background-color: #000; /* fond noir si l'image ne couvre pas tout */
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 
 .bodo-container {
@@ -163,51 +155,10 @@ body.bodo-page {
   background-color: black;
 }
 
-/* Image de fond */
 .bodo {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Bouton droit */
-.boutondroit-button {
-  position: absolute;
-  top: 1227px;
-  left: 1434px;
-  transform: translateY(-50%);
-}
-
-.BD {
-  width: 106.79px;
-  height: 109px;
-  cursor: pointer;
-}
-
-/* Bouton gauche */
-.boutongauche-button {
-  position: absolute;
-  top: 1227px;
-  left: 30px;
-  transform: translateY(-50%);
-}
-
-.BG {
-  width: 106.79px;
-  height: 109px;
-  cursor: pointer;
-}
-
-/* Bouton carte */
-.carte-button {
-  position: absolute;
-  top: 43px;
-  left: 147px;
-  transform: translateX(-50%);
-}
-
-.carte {
-  width: 219.9px;
-  height: 143px;
-  cursor: pointer;
-
+/* Réutilisation des boutons si même style */
