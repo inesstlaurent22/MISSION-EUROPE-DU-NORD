@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body.bodo-page {
+  cursor: url('images/Loupegrande.png'), auto;
+}
   margin: 0;
   padding: 0;
   min-height: 100vh;
