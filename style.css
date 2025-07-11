@@ -89,7 +89,7 @@ html, body {
 /* Bouton droit */
 .boutondroit-button {
   position: absolute;
-  top: 1927px;
+  top: 1227px;
   left: 1134px;
   transform: translateY(-50%);
 }
@@ -103,7 +103,7 @@ html, body {
 /* Bouton gauche */
 .boutongauche-button {
   position: absolute;
-  top: 1927px ;
+  top: 1227px ;
   left: 0px;
   transform: translateY(-50%);
 }
