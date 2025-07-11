@@ -5,5 +5,5 @@ document.getElementById('transitionButton').addEventListener('click', function (
 
   setTimeout(() => {
     window.location.href = 'rotterdam.html'; // change cette URL si besoin
-  }, 1000); // 1000ms = 1s, ajuste selon la durée du GIF
+  }, 800); // 1000ms = 1s, ajuste selon la durée du GIF
 });
