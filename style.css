@@ -85,60 +85,58 @@ html, body {
   height: 225px;
   display: block;
 }
+/* Conteneur principal */
+.rotterdam-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
 
-.boutondroit {
+/* Image de fond */
+.fond3 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Bouton droit */
+.boutondroit-button {
   position: absolute;
-  top: 600px;
-  left: 375px;
-  transform: translate(-50%, -50%);
-  padding: 15px 30px;
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
 }
 
-.boutondroit:hover {
-  background-color: transparent;
+.BD {
+  width: 106.79px;
+  height: 109px;
+  cursor: pointer;
 }
 
-.boutongauche {
+/* Bouton gauche */
+.boutongauche-button {
   position: absolute;
-  top: 300px;
-  left: 675px;
-  transform: translate(-50%, -50%);
-  padding: 15px 30px;
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
 }
 
-.boutongauche:hover {
-  background-color: transparent;
+.BG {
+  width: 106.79px;
+  height: 109px;
+  cursor: pointer;
 }
 
-.menu {
+/* Bouton carte */
+.carte-button {
   position: absolute;
-  top: 245px;
-  left: 475px;
-  transform: translate(-50%, -50%);
-  padding: 10px 25px;
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.menu:hover {
-  background-color: transparent;
+.carte {
+  width: 219.9px;
+  height: 143px;
+  cursor: pointer;
 }
