@@ -104,6 +104,7 @@ html, body {
 .boutondroit:hover {
   background-color: transparent;
 }
+
 .boutongauche {
   position: absolute;
   top: 300px;
@@ -122,6 +123,7 @@ html, body {
 .boutongauche:hover {
   background-color: transparent;
 }
+
 .menu {
   position: absolute;
   top: 245px;
