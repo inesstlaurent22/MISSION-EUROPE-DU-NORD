@@ -1,18 +1,11 @@
 document.getElementById('transitionButton').addEventListener('click', function () {
   const baleineContainer = document.getElementById('transitionVideoContainer');
-  const baleine = document.getElementById('baleine');
 
-  // Affiche la vidéo
+  // Affiche le GIF de transition
   baleineContainer.style.display = 'block';
 
-  // Joue la vidéo
-baleineContainer.style.display = 'block';
-setTimeout(() => {
-  window.location.href = 'rotterdam.html';
-}, 3000);
-
-  // Quand la vidéo est terminée, redirige vers une autre page
-  baleine.onended = function () {
+  // Attends 3 secondes (ou la durée réelle du GIF) avant de rediriger
+  setTimeout(() => {
     window.location.href = 'rotterdam.html';
-  };
+  }, 3000); // remplace 3000 par la durée de ton GIF en millisecondes
 });
