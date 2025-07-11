@@ -3,7 +3,7 @@ document.getElementById('transitionButton').addEventListener('click', function (
   const video = document.getElementById('transitionVideo');
 
   // Affiche la vidéo
-  videoContainer.style.display = 'block';
+  baleineContainer.style.display = 'block';
 
   // Lance la vidéo
   video.play().catch(error => {
@@ -12,6 +12,6 @@ document.getElementById('transitionButton').addEventListener('click', function (
 
   // Quand la vidéo est terminée, redirige
   video.onended = function () {
-    window.location.href = 'menu.html'; // change vers la page que tu veux
+    window.location.href = 'rotterdam.html'; // change vers la page que tu veux
   };
 });
