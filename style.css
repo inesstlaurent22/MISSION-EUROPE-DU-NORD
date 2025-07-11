@@ -47,34 +47,29 @@ html, body {
 
 /* MENU */
 .menu-container {
+  position: relative;
   width: 100%;
-  overflow-y: auto;
-  background-color: black;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
-.menu-image {
-  width: 90px;
+.menu {
+  width: 100%;
   height: auto;
   display: block;
-
-.paris {
-  position: absolute;
-  top: 809px;
-  left: 749px;
-  transform: translate(-50%, -50%);
-  padding: 15px 30px;
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
 }
 
-.paris:hover {
-  background-color: transparent;
+.paris-button {
+  position: absolute;
+  top: 50%; /* Ajuste cette valeur selon ton besoin */
+  left: 50%; /* Ajuste cette valeur aussi */
+  transform: translate(-50%, -50%); /* Pour centrer exactement */
+}
+
+.paris-button img {
+  width: 100px; /* Taille du bouton, ajuste selon ton design */
+  height: auto;
+  cursor: pointer;
 }
 
 /* ROTTERDAM */
