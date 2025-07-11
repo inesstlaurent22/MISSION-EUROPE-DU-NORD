@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-html, body.bodo-page {
-  cursor: url('images/Loupegrande.png'), auto;
-}
+html, body
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -149,16 +147,26 @@ html, body.bodo-page {
 }
 
 /* BODO */
+body.bodo-page {
+  cursor: url('images/Loupegrande.png'), auto;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000; /* fond noir si l'image ne couvre pas tout */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 .bodo-container {
   width: 100%;
   overflow-y: auto;
   background-color: black;
 }
 
-/* Image en pleine largeur, hauteur auto (scrollable si nécessaire) */
-.bodo-image {
-  width: 198px;
-  height: 225px;
+/* Image de fond */
+.bodo {
+  width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -179,7 +187,7 @@ html, body.bodo-page {
 /* Bouton gauche */
 .boutongauche-button {
   position: absolute;
-  top: 1227px ;
+  top: 1227px;
   left: 30px;
   transform: translateY(-50%);
 }
@@ -193,7 +201,7 @@ html, body.bodo-page {
 /* Bouton carte */
 .carte-button {
   position: absolute;
-  top: 43px ;
+  top: 43px;
   left: 147px;
   transform: translateX(-50%);
 }
@@ -202,4 +210,4 @@ html, body.bodo-page {
   width: 219.9px;
   height: 143px;
   cursor: pointer;
-}
+
