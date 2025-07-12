@@ -163,10 +163,10 @@ body.bodo-page {
 
 .bodo-video {
   position: absolute;
-  top: 1441px;
-  left: 2036px;
-  width: 1441px;
-  height: 2036px;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
   object-fit: cover;
   z-index: -1;
   cursor: url('images/Loupegrande1.png'), auto;
