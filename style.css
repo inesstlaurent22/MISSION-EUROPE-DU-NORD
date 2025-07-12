@@ -189,7 +189,7 @@ body.bodo-page {
   width: 160px;
   height: auto;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 /* Animation de tremblement */
@@ -202,9 +202,10 @@ body.bodo-page {
   100% { transform: translate(0, 0); }
 }
 
-/* Hover sur l'image pour activer l'animation */
+/* Hover pour activer tremblement et lumière */
 .carte-button:hover .carte {
   animation: shake 0.4s ease-in-out;
+  box-shadow: 0 0 20px 8px rgba(255, 255, 255, 0.7); /* lumière blanche */
 }
 
 .boutondroit-button {
