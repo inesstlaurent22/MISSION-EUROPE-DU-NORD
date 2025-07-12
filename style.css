@@ -158,9 +158,13 @@ body.bodo-page {
 }
 
 .bodo {
+ position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover; /* adapte la vidéo au conteneur sans distorsion */
+  z-index: -1; /* place la vidéo en arrière-plan */
 }
 
 /* ROTTERDAM */
