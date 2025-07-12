@@ -184,21 +184,6 @@ body.bodo-page {
   transform: translateX(-50%);
 }
 
-/* Style de l'image dans le bouton */
-.carte {
-  width: 160px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.carte-button {
-  position: absolute;
-  top: 43px;
-  left: 147px;
-  transform: translateX(-50%);
-}
-
 .carte {
   width: 160px;
   height: auto;
@@ -216,10 +201,13 @@ body.bodo-page {
   100% { transform: translate(0, 0); }
 }
 
-/* Hover : tremblement + halo lumineux autour de la forme */
+/* Hover : tremblement + lumière plus flash */
 .carte-button:hover .carte {
   animation: shake 0.4s ease-in-out;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+  filter:
+    drop-shadow(0 0 8px white)
+    drop-shadow(0 0 16px white)
+    drop-shadow(0 0 24px white);
 }
 
 .boutondroit-button {
