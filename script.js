@@ -1,4 +1,3 @@
-// Cibler tous les boutons de transition
 const transitionButtons = document.querySelectorAll('.transitionButton');
 const baleine = document.getElementById('transitionVideoContainer');
 
