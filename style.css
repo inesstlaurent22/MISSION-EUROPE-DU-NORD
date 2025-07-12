@@ -110,14 +110,14 @@ html, body {
 }
 
 /* Boutons villes (positions spécifiques) */
-.paris-button { position: absolute; top: 849px; left: 752px; transform: translate(-50%, -50%); }
+.paris-button { position: absolute; top: 789px; left: 752px; transform: translate(-50%, -50%); }
 .copenhague-button { position: absolute; top: 580px; left: 802px; transform: translate(-50%, -50%); }
-.oslo-button { position: absolute; top: 368px; left: 826px; transform: translate(-50%, -50%); }
+.oslo-button { position: absolute; top: 410px; left: 930px; transform: translate(-50%, -50%); }
 .hamar-button { position: absolute; top: 309px; left: 876px; transform: translate(-50%, -50%); }
 .trondheim-button { position: absolute; top: 236px; left: 884px; transform: translate(-50%, -50%); }
 .bodo-button { position: absolute; top: 164px; left: 939px; transform: translate(-50%, -50%); }
 .tromso-button { position: absolute; top: 80px; left: 1001px; transform: translate(-50%, -50%); }
-.capnord-button { position: absolute; top: 40px; left: 1112px; transform: translate(-50%, -50%); }
+.capnord-button { position: absolute; top: 80px; left: 1112px; transform: translate(-50%, -50%); }
 .kirkenes-button { position: absolute; top: 91px; left: 1165px; transform: translate(-50%, -50%); }
 .stockholm-button { position: absolute; top: 467px; left: 970px; transform: translate(-50%, -50%); }
 .helsinki-button { position: absolute; top: 430px; left: 1140px; transform: translate(-50%, -50%); }
