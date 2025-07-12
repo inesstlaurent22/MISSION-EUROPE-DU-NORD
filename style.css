@@ -151,6 +151,7 @@ body.bodo-page {
 }
 
 .bodo-container {
+  position: relative; 
   width: 100%;
   overflow-y: auto;
   background-color: black;
