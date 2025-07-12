@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Liste des boutons avec les pages cibles
   const redirections = {
-    "paris-button": "paris.html",
+    "paris-button": "rotterdam.html",
     "copenhague-button": "copenhague.html",
     "oslo-button": "oslo.html",
     "hamar-button": "hamar.html",
