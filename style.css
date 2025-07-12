@@ -101,6 +101,175 @@ html, body {
   cursor: pointer;
 }
 
+.hamar-button {
+  position: absolute;
+  top: 309px;
+  left: 876px;
+  transform: translate(-50%, -50%);
+}
+
+.hamar-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.trondheim-button {
+  position: absolute;
+  top: 236px;
+  left: 884px;
+  transform: translate(-50%, -50%);
+}
+
+.trondheim-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.bodo-button {
+  position: absolute;
+  top: 164px;
+  left: 939px;
+  transform: translate(-50%, -50%);
+}
+
+.bodo-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.tromso-button {
+  position: absolute;
+  top: 80px;
+  left: 1001px;
+  transform: translate(-50%, -50%);
+}
+
+.tromso-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.capnord-button {
+  position: absolute;
+  top: 40px;
+  left: 1112px;
+  transform: translate(-50%, -50%);
+}
+
+.capnord-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.kirkenes-button {
+  position: absolute;
+  top: 91px;
+  left: 1165px;
+  transform: translate(-50%, -50%);
+}
+
+.kirkenes-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.stockholm-button {
+  position: absolute;
+  top: 467px;
+  left: 970px;
+  transform: translate(-50%, -50%);
+}
+
+.stockholm-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.helsinki-button {
+  position: absolute;
+  top: 430px;
+  left: 1140px;
+  transform: translate(-50%, -50%);
+}
+
+.helsinki-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.tallin-button {
+  position: absolute;
+  top: 508px;
+  left: 1132px;
+  transform: translate(-50%, -50%);
+}
+
+.tallin-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.riga-button {
+  position: absolute;
+  top: 568px;
+  left: 1143px;
+  transform: translate(-50%, -50%);
+}
+
+.riga-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.vilnius-button {
+  position: absolute;
+  top: 627px;
+  left: 1104px;
+  transform: translate(-50%, -50%);
+}
+
+.vilnius-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.cracovie-button {
+  position: absolute;
+  top: 687px;
+  left: 991px;
+  transform: translate(-50%, -50%);
+}
+
+.cracovie-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.berlin-button {
+  position: absolute;
+  top: 710px;
+  left: 875px;
+  transform: translate(-50%, -50%);
+}
+
+.berlin-button img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
 .baleine {
   display: none;
   position: fixed;
