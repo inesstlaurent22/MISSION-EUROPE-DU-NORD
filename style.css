@@ -185,8 +185,8 @@ body.bodo-page {
 
 /* Style de l'image dans le bouton */
 .carte {
-  width: 219.9px;
-  height: 143px;
+  width: 160px;
+  height: auto;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
 }
