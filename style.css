@@ -117,7 +117,7 @@ html, body {
 .trondheim-button { position: absolute; top: 236px; left: 884px; transform: translate(-50%, -50%); }
 .bodo-button { position: absolute; top: 164px; left: 939px; transform: translate(-50%, -50%); }
 .tromso-button { position: absolute; top: 80px; left: 1001px; transform: translate(-50%, -50%); }
-.capnord-button { position: absolute; top: 80px; left: 1112px; transform: translate(-50%, -50%); }
+.capnord-button { position: absolute; top: 60px; left: 1112px; transform: translate(-50%, -50%); }
 .kirkenes-button { position: absolute; top: 91px; left: 1165px; transform: translate(-50%, -50%); }
 .stockholm-button { position: absolute; top: 467px; left: 970px; transform: translate(-50%, -50%); }
 .helsinki-button { position: absolute; top: 430px; left: 1140px; transform: translate(-50%, -50%); }
