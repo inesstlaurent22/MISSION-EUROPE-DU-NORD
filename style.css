@@ -159,15 +159,30 @@ html, body {
 
 /* --------------------- PAGE ROTTERDAM --------------------- */
 .rotterdam-page {
-  width: 100%;
+  margin: 0;
+  padding: 0;
   background-color: black;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
-.rotterdam-video {
-  width: 198px;
-  height: 225px;
-  display: block;
-  z-index: 1;
+.rotterdam-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image GIF en fond plein écran */
+.rotterdam-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 /* --------------------- PAGE COPENHAGUE --------------------- */
