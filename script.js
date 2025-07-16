@@ -39,3 +39,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+  // Train (transition 3)
+  const train = document.getElementById('transitionVideoContainer3');
+  const transitionButtons3 = document.querySelectorAll('.transitionButton3');
+
+  transitionButtons3.forEach(button => {
+    button.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = this.getAttribute("data-target");
+      if (!target) return;
+
+      // Affiche le train
+      train.style.display = 'block';
+
+      // Redirection après 1.2 secondes
+      setTimeout(() => {
+        window.location.href = target;
+      }, 3000);
+    });
+  });
+});
