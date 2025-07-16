@@ -159,22 +159,13 @@ html, body {
 
 /* --------------------- PAGE ROTTERDAM --------------------- */
 .rotterdam-page {
-  margin: 0;
-  padding: 0;
-  background-color: black;
+  position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  position: relative;
 }
 
-.rotterdam-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.rotterdam-gif {
+.rotterdam-video {
   position: absolute;
   top: 0;
   left: 0;
