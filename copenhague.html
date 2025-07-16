@@ -10,30 +10,28 @@
 
 <div class="copenhague-container">
   <img src="images/Fond/Copenhaguefond.PNG" alt="Image de fond" class="fondcopenhague">
-</div>
 
-    <div class="carte-button">
-      <a href="menu.html">
-        <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte">
-      </a>
-    </div>
-    
-    <div class="boutondroit-button">
-      <a href="bodo.html">
-        <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD">
-      </a>
-    </div>
-
-    <div class="boutongauche-button">
-      <a href="rotterdam.html">
-        <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG">
-      </a>
-    </div>
-        <div id="transitionVideoContainer3" class="train" style="display: none;">
-       <img src="videos/Videotransition3.mov" alt="train" class="train" />
-    </div>
+  <div class="carte-button transitionButton3" data-target="menu.html">
+    <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte">
+  </div>
   
+  <div class="boutondroit-button transitionButton3" data-target="bodo.html">
+    <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD">
+  </div>
+
+  <div class="boutongauche-button transitionButton3" data-target="rotterdam.html">
+    <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG">
+  </div>
+
+  <!-- Conteneur de transition vidéo TRAIN -->
+  <div id="transitionVideoContainer3" class="train" style="display: none;">
+    <video class="train" autoplay muted playsinline>
+      <source src="videos/Videotransition3.mov" type="video/mp4">
+      Votre navigateur ne prend pas en charge la vidéo.
+    </video>
+  </div>
 </div>
+
 <script src="script.js"></script>
 </body>
 </html>
