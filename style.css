@@ -198,12 +198,13 @@ body.bodo-page {
   z-index: 1;
 }
 
-/* Positionnement du bouton */
+/* ======= BOUTON CARTE (centre haut) ======= */
 .carte-button {
   position: absolute;
   top: 43px;
-  left: 147px;
+  left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 
 .carte {
@@ -223,7 +224,7 @@ body.bodo-page {
   100% { transform: translate(0, 0); }
 }
 
-/* Hover : tremblement + lumière plus flash */
+/* Hover : tremblement + effet lumineux */
 .carte-button:hover .carte {
   animation: shake 0.4s ease-in-out;
   filter:
@@ -232,24 +233,12 @@ body.bodo-page {
     drop-shadow(0 0 24px white);
 }
 
-.boutondroit-button {
-  position: absolute;
-  top: 1227px;
-  left: 1200px;
-  transform: translateY(-50%);
-}
-
-.BD {
-  width: 106.79px;
-  height: 109px;
-  cursor: pointer;
-}
-
+/* ======= BOUTONS GAUCHE ET DROIT (en bas à gauche et droite) ======= */
 .boutongauche-button {
   position: absolute;
-  top: 1227px;
+  bottom: 30px;
   left: 30px;
-  transform: translateY(-50%);
+  z-index: 1;
 }
 
 .BG {
@@ -258,3 +247,15 @@ body.bodo-page {
   cursor: pointer;
 }
 
+.boutondroit-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.BD {
+  width: 106.79px;
+  height: 109px;
+  cursor: pointer;
+}
