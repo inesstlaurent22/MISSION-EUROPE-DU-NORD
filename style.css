@@ -146,16 +146,22 @@ html, body {
 }
 
 /* BODO */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal de la page Bodo */
 .bodo-container {
   position: relative;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh; /* ✅ Utilise min-height pour autoriser le scroll */
+  overflow: visible; /* ✅ Permet le scroll si le contenu déborde */
 }
 
 /* Image de fond pour Bodo */
 .bodo-fond {
-  position: absolute;
+  position: fixed; /* ✅ On la fixe pour qu’elle reste en fond pendant le scroll */
   top: 0;
   left: 0;
   width: 100%;
