@@ -1,11 +1,55 @@
-/* Réinitialisation */
+/* --------------------- RÉINITIALISATION GÉNÉRALE --------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Réinitialisation uniquement des boutons géographiques */
+html, body {
+  min-height: 100vh;
+  background-color: #000;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* --------------------- BOUTONS DES VILLES --------------------- */
+.paris-button,
+.copenhague-button,
+.oslo-button,
+.hamar-button,
+.trondheim-button,
+.bodo-button,
+.tromso-button,
+.capnord-button,
+.kirkenes-button,
+.stockholm-button,
+.helsinki-button,
+.tallin-button,
+.riga-button,
+.vilnius-button,
+.cracovie-button,
+.berlin-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.paris-button        { top: 789px;  left: 752px; }
+.copenhague-button   { top: 580px;  left: 802px; }
+.oslo-button         { top: 410px;  left: 890px; }
+.hamar-button        { top: 309px;  left: 876px; }
+.trondheim-button    { top: 236px;  left: 884px; }
+.bodo-button         { top: 164px;  left: 939px; }
+.tromso-button       { top: 80px;   left: 1001px; }
+.capnord-button      { top: 60px;   left: 1112px; }
+.kirkenes-button     { top: 91px;   left: 1165px; }
+.stockholm-button    { top: 467px;  left: 970px; }
+.helsinki-button     { top: 430px;  left: 1140px; }
+.tallin-button       { top: 508px;  left: 1132px; }
+.riga-button         { top: 568px;  left: 1143px; }
+.vilnius-button      { top: 627px;  left: 1104px; }
+.cracovie-button     { top: 687px;  left: 991px; }
+.berlin-button       { top: 710px;  left: 875px; }
+
 .paris-button button,
 .copenhague-button button,
 .oslo-button button,
@@ -25,7 +69,6 @@
   border: none;
   background: none;
   padding: 0;
-  margin: 0;
   cursor: pointer;
   outline: none;
 }
@@ -52,20 +95,9 @@
   cursor: pointer;
 }
 
-/* Styles généraux */
-html, body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background-color: #000;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-/* PAGE1 */
+/* --------------------- PAGE INDEX --------------------- */
 .index-container {
   width: 100%;
-  overflow-y: auto;
   background-color: black;
 }
 
@@ -94,74 +126,29 @@ html, body {
   background-color: transparent;
 }
 
-/* MENU */
+/* --------------------- PAGE MENU --------------------- */
 .menu-container {
   position: relative;
   width: 100%;
-  max-width: 100%;
   overflow: hidden;
 }
 
 .menu {
-  position: relative;
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Boutons villes (positions spécifiques) */
-.paris-button { position: absolute; top: 789px; left: 752px; transform: translate(-50%, -50%); }
-.copenhague-button { position: absolute; top: 580px; left: 802px; transform: translate(-50%, -50%); }
-.oslo-button { position: absolute; top: 410px; left: 890px; transform: translate(-50%, -50%); }
-.hamar-button { position: absolute; top: 309px; left: 876px; transform: translate(-50%, -50%); }
-.trondheim-button { position: absolute; top: 236px; left: 884px; transform: translate(-50%, -50%); }
-.bodo-button { position: absolute; top: 164px; left: 939px; transform: translate(-50%, -50%); }
-.tromso-button { position: absolute; top: 80px; left: 1001px; transform: translate(-50%, -50%); }
-.capnord-button { position: absolute; top: 60px; left: 1112px; transform: translate(-50%, -50%); }
-.kirkenes-button { position: absolute; top: 91px; left: 1165px; transform: translate(-50%, -50%); }
-.stockholm-button { position: absolute; top: 467px; left: 970px; transform: translate(-50%, -50%); }
-.helsinki-button { position: absolute; top: 430px; left: 1140px; transform: translate(-50%, -50%); }
-.tallin-button { position: absolute; top: 508px; left: 1132px; transform: translate(-50%, -50%); }
-.riga-button { position: absolute; top: 568px; left: 1143px; transform: translate(-50%, -50%); }
-.vilnius-button { position: absolute; top: 627px; left: 1104px; transform: translate(-50%, -50%); }
-.cracovie-button { position: absolute; top: 687px; left: 991px; transform: translate(-50%, -50%); }
-.berlin-button { position: absolute; top: 710px; left: 875px; transform: translate(-50%, -50%); }
-
-/* Gif de transition */
-.baleine {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 10;
-  background-color: transparent;
-}
-
-.baleine img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* BODO */
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* Conteneur principal de la page Bodo */
+/* --------------------- PAGE BODO --------------------- */
 .bodo-container {
   position: relative;
   width: 100%;
-  min-height: 100vh; /* ✅ Utilise min-height pour autoriser le scroll */
-  overflow: visible; /* ✅ Permet le scroll si le contenu déborde */
+  min-height: 100vh;
+  overflow: visible;
 }
 
-/* Image de fond pour Bodo */
 .bodo-fond {
-  position: fixed; /* ✅ On la fixe pour qu’elle reste en fond pendant le scroll */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -170,10 +157,9 @@ body {
   z-index: -1;
 }
 
-/* ROTTERDAM */
+/* --------------------- PAGE ROTTERDAM --------------------- */
 .rotterdam-page {
   width: 100%;
-  overflow-y: auto;
   background-color: black;
 }
 
@@ -184,10 +170,9 @@ body {
   z-index: 1;
 }
 
-/* COPENHAGUE */
+/* --------------------- PAGE COPENHAGUE --------------------- */
 .copenhague-container {
   width: 100%;
-  overflow-y: auto;
   background-color: black;
 }
 
@@ -198,7 +183,7 @@ body {
   z-index: 1;
 }
 
-/* ======= BOUTON CARTE (centre haut) ======= */
+/* --------------------- BOUTON CARTE (haut centre) --------------------- */
 .carte-button {
   position: absolute;
   top: 43px;
@@ -214,7 +199,7 @@ body {
   transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
-/* Animation de tremblement */
+/* Animation tremblement */
 @keyframes shake {
   0% { transform: translate(0, 0); }
   20% { transform: translate(-2px, 2px); }
@@ -224,7 +209,6 @@ body {
   100% { transform: translate(0, 0); }
 }
 
-/* Hover : tremblement + effet lumineux */
 .carte-button:hover .carte {
   animation: shake 0.4s ease-in-out;
   filter:
@@ -233,29 +217,37 @@ body {
     drop-shadow(0 0 24px white);
 }
 
-/* ======= BOUTONS GAUCHE ET DROIT (en bas à gauche et droite) ======= */
-.boutongauche-button {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-  z-index: 1;
-}
-
-.BG {
-  width: 106.79px;
-  height: 109px;
-  cursor: pointer;
-}
-
+/* --------------------- BOUTONS GAUCHE / DROITE --------------------- */
+.boutongauche-button,
 .boutondroit-button {
   position: absolute;
   bottom: 30px;
-  right: 30px;
   z-index: 1;
 }
 
-.BD {
+.boutongauche-button { left: 30px; }
+.boutondroit-button  { right: 30px; }
+
+.BG, .BD {
   width: 106.79px;
   height: 109px;
   cursor: pointer;
+}
+
+/* --------------------- GIF TRANSITION --------------------- */
+.baleine {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.baleine img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
