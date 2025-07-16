@@ -7,33 +7,36 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="rotterdam-container">
-    <img src="images/Fond/Fondpage2.png" alt="Image de fond rotter" class="rotterfond">
+  <div class="rotterdam-container">
+    <img src="images/Fond/Fondpage2.png" alt="Image de fond rotter" class="rotterfond" />
 
-  <div class="carte-button">
-    <a href="menu.html">
-      <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte">
-    </a>
-  </div>
-
-  <div class="boutongauche-button">
-    <a href="menu.html">
-      <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG">
-    </a>
-  </div>
-
-  <div class="boutondroit-button">
-    <a href="copenhague.html">
-      <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD">
-    </a>
-  </div>
-   
-    <div id="transitionVideoContainer2" class="avion" style="display: none;">
-       <img src="videos/Videotransition2.mp4" alt="avion" class="avion" />
+    <div class="carte-button">
+      <a href="menu.html">
+        <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte" />
+      </a>
     </div>
-  
-</div>
-<script src="script.js"></script>
+
+    <div class="boutongauche-button">
+      <a href="menu.html">
+        <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG" />
+      </a>
+    </div>
+
+    <!-- ✅ Bouton avec transition avion -->
+    <div class="boutondroit-button">
+      <a href="copenhague.html" class="transitionButton2" data-target="copenhague.html">
+        <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD" />
+      </a>
+    </div>
+
+    <!-- ✅ Container avec <video> au lieu de <img> -->
+    <div id="transitionVideoContainer2" class="avion" style="display: none;">
+      <video autoplay muted playsinline class="avion" style="width: 100%; height: 100%;">
+        <source src="videos/Videotransition2.mp4" type="video/mp4" />
+        Ton navigateur ne prend pas en charge les vidéos HTML5.
+      </video>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
-
