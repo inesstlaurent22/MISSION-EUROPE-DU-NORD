@@ -146,28 +146,22 @@ html, body {
 }
 
 /* BODO */
-body.bodo-page {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.bodo-video {
+.bodo-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: black;
 }
 
-.bodo-video {
+/* Image de fond pour Bodo */
+.bodo-fond {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: -1;
 }
 
 /* ROTTERDAM */
