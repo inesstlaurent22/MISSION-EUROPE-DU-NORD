@@ -144,7 +144,7 @@ html, body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  overflow: visible;
+  overflow: hidden; /* pour éviter les débordements */
 }
 
 .bodo-fond {
