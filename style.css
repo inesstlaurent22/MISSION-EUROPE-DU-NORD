@@ -138,23 +138,21 @@ html, body {
   height: auto;
   display: block;
 }
-
-/* --------------------- PAGE BODO --------------------- */
-.bodo-container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden; /* pour éviter les débordements */
-}
-
-.bodo-fond {
+.baleine {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.baleine img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* --------------------- PAGE ROTTERDAM --------------------- */
@@ -203,8 +201,40 @@ html, body {
   display: block;
   z-index: 1;
 }
+#transitionVideoContainer3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 9999;
+}
+#transitionVideoContainer3 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-/* --------------------- BOUTON CARTE (haut centre) --------------------- */
+/* --------------------- PAGE BODO --------------------- */
+.bodo-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* pour éviter les débordements */
+}
+
+.bodo-fond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* --------------------- BOUTONS GENERALES --------------------- */
 .carte-button {
   position: absolute;
   top: 43px;
@@ -238,7 +268,6 @@ html, body {
     drop-shadow(0 0 24px white);
 }
 
-/* --------------------- BOUTONS GAUCHE / DROITE --------------------- */
 .boutongauche-button,
 .boutondroit-button {
   position: absolute;
@@ -253,22 +282,4 @@ html, body {
   width: 106.79px;
   height: 109px;
   cursor: pointer;
-}
-
-/* --------------------- GIF TRANSITION --------------------- */
-.baleine {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: transparent;
-  z-index: 10;
-}
-
-.baleine img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
