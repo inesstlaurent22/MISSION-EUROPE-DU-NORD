@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Transition Avion (2)
-  const avion = document.getElementById('transitionVideoContainer2');
+  const avion = document.getElementById('transitionVideo2');
   const transitionButtons2 = document.querySelectorAll('.transitionButton2');
 
   transitionButtons2.forEach(button => {
