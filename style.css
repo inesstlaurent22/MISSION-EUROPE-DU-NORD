@@ -181,15 +181,16 @@ html, body {
   width: 100vw;
   height: 100vh;
   z-index: 1000;
-  background-color: black;
+  background-color: black; /* utile si la vidéo ne remplit pas toute la zone */
   overflow: hidden;
 }
 
 #transitionVideo2 video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* <-- Affiche toute la vidéo sans la couper */
   display: block;
+  background-color: black;
 }
 
 /* --------------------- PAGE COPENHAGUE --------------------- */
