@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Baleine (transition 1)
+  // Transition Baleine (1)
   const baleine = document.getElementById('transitionVideoContainer');
   const transitionButtons = document.querySelectorAll('.transitionButton');
 
@@ -9,17 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = this.getAttribute("data-target");
       if (!target) return;
 
-      // Affiche la baleine
       baleine.style.display = 'block';
-
-      // Redirection après 1.2 secondes
       setTimeout(() => {
         window.location.href = target;
       }, 1200);
     });
   });
 
-  // Avion (transition 2)
+  // Transition Avion (2)
   const avion = document.getElementById('transitionVideoContainer2');
   const transitionButtons2 = document.querySelectorAll('.transitionButton2');
 
@@ -29,18 +26,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = this.getAttribute("data-target");
       if (!target) return;
 
-      // Affiche l’avion
       avion.style.display = 'block';
-
-      // Redirection après 1.2 secondes
       setTimeout(() => {
         window.location.href = target;
       }, 3000);
     });
   });
-});
 
-  // Train (transition 3)
+  // Transition Train (3)
   const train = document.getElementById('transitionVideoContainer3');
   const transitionButtons3 = document.querySelectorAll('.transitionButton3');
 
@@ -50,10 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = this.getAttribute("data-target");
       if (!target) return;
 
-      // Affiche le train
       train.style.display = 'block';
-
-      // Redirection après 1.2 secondes
       setTimeout(() => {
         window.location.href = target;
       }, 3000);
