@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       avion.style.display = 'block';
       setTimeout(() => {
         window.location.href = target;
-      }, 3000);
+      }, 6000);
     });
   });
 
