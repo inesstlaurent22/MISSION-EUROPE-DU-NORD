@@ -155,6 +155,24 @@ html, body {
   display: block;
 }
 
+/* --------------------- PAGE PARIS --------------------- */
+.paris-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* pour éviter les débordements */
+}
+
+.paris-fond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 /* --------------------- PAGE ROTTERDAM --------------------- */
 .rotterdam-page {
   position: relative;
@@ -229,6 +247,42 @@ html, body {
 }
 
 .bodo-fond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* --------------------- PAGE HAMAR --------------------- */
+.hamar-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* pour éviter les débordements */
+}
+
+.hamar-fond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* --------------------- PAGE BODO --------------------- */
+.trondheim-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* pour éviter les débordements */
+}
+
+.trondheim-fond {
   position: fixed;
   top: 0;
   left: 0;
