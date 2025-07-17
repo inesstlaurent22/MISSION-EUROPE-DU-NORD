@@ -16,7 +16,6 @@ html, body {
 .paris-button,
 .copenhague-button,
 .oslo-button,
-.hamar-button,
 .trondheim-button,
 .bodo-button,
 .tromso-button,
@@ -36,7 +35,6 @@ html, body {
 .paris-button        { top: 789px;  left: 752px; }
 .copenhague-button   { top: 580px;  left: 802px; }
 .oslo-button         { top: 410px;  left: 890px; }
-.hamar-button        { top: 309px;  left: 876px; }
 .trondheim-button    { top: 236px;  left: 884px; }
 .bodo-button         { top: 164px;  left: 939px; }
 .tromso-button       { top: 80px;   left: 1001px; }
@@ -53,7 +51,6 @@ html, body {
 .paris-button button,
 .copenhague-button button,
 .oslo-button button,
-.hamar-button button,
 .trondheim-button button,
 .bodo-button button,
 .tromso-button button,
@@ -76,7 +73,6 @@ html, body {
 .paris-button img,
 .copenhague-button img,
 .oslo-button img,
-.hamar-button img,
 .trondheim-button img,
 .bodo-button img,
 .tromso-button img,
