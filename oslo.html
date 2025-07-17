@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oslo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="oslo-container">
+    <img src="images/Fond/Oslo.png" alt="Image de fond oslo" class="oslofond" />
+
+    <div class="carte-button">
+      <a href="menu.html">
+        <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte" />
+      </a>
+    </div>
+
+    <div class="boutongauche-button">
+      <a href="menu.html">
+        <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG" />
+      </a>
+    </div>
+
+    <div class="boutondroit-button">
+      <a href="copenhague.html" class="transitionButton2" data-target="copenhague.html">
+        <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD" />
+      </a>
+    </div>
+
+    <div id="transitionVideo2" class="avion" style="display: none;">
+      <video id="videoAvion" class="avion" autoplay muted>
+        <source src="videos/Aviontransition.mov" type="video/mp4" />
+        Ton navigateur ne supporte pas la lecture vidéo.
+      </video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
