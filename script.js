@@ -16,22 +16,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Transition Avion (2)
-  const avion = document.getElementById('transitionVideo2');
-  const transitionButtons2 = document.querySelectorAll('.transitionButton2');
+const avion = document.getElementById('transitionVideo2');
+const video = avion.querySelector('video');
+const transitionButtons2 = document.querySelectorAll('.transitionButton2');
 
-  transitionButtons2.forEach(button => {
-    button.addEventListener("click", function (e) {
-      e.preventDefault();
-      const target = this.getAttribute("data-target");
-      if (!target) return;
+transitionButtons2.forEach(button => {
+  button.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = this.getAttribute("data-target");
+    if (!target) return;
 
-      avion.style.display = 'block';
-      setTimeout(() => {
-        window.location.href = target;
-      }, 6000);
-    });
+    avion.style.display = 'block';
+    video.currentTime = 0;
+    video.play();
+
+    // Redirige dès que la vidéo est terminée
+    video.onended = () => {
+      window.location.href = target;
+    };
   });
+});
 
   // Transition Train (3)
   const train = document.getElementById('transitionVideoContainer3');
