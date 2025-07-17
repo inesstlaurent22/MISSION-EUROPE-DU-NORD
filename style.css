@@ -238,6 +238,24 @@ html, body {
   object-fit: cover;
 }
 
+/* --------------------- PAGE OSLO --------------------- */
+.oslo-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* pour éviter les débordements */
+}
+
+.oslo-fond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
 /* --------------------- PAGE HAMAR --------------------- */
 .hamar-container {
   position: relative;
@@ -256,7 +274,7 @@ html, body {
   z-index: 1;
 }
 
-/* --------------------- PAGE BODO --------------------- */
+/* --------------------- PAGE TRONDHEIM --------------------- */
 .trondheim-container {
   position: relative;
   width: 100%;
@@ -265,24 +283,6 @@ html, body {
 }
 
 .trondheim-fond {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-/* --------------------- PAGE BODO --------------------- */
-.bodo-container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden; /* pour éviter les débordements */
-}
-
-.bodo-fond {
   position: fixed;
   top: 0;
   left: 0;
