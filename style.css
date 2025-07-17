@@ -174,21 +174,26 @@ html, body {
   z-index: -1; /* En arrière-plan */
   pointer-events: none; /* Pour ne pas bloquer les clics */
 }
-.avion {
+#transitionVideo2 {
   display: none;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: transparent;
-  z-index: 10;
+  z-index: 1000;
+  background-color: black; /* ou transparent */
+  overflow: hidden;
 }
 
-.avion img {
-  width: 100%;
-  height: auto;
-  display: block;
+#transitionVideo2 video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
 }
 
 /* --------------------- PAGE COPENHAGUE --------------------- */
