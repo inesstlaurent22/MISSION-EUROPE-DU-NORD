@@ -174,7 +174,7 @@ html, body {
   z-index: -1; /* En arrière-plan */
   pointer-events: none; /* Pour ne pas bloquer les clics */
 }
-.transitionVideo2 {
+.avion {
   display: none;
   position: fixed;
   top: 0;
@@ -185,7 +185,7 @@ html, body {
   z-index: 10;
 }
 
-.transitionVideo2 img {
+.avion img {
   width: 100%;
   height: auto;
   display: block;
