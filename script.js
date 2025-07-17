@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 const avion = document.getElementById('transitionVideo2');
-const video = avion.querySelector('video');
+const video = document.getElementById('videoAvion');
 const transitionButtons2 = document.querySelectorAll('.transitionButton2');
 
 transitionButtons2.forEach(button => {
@@ -30,7 +30,6 @@ transitionButtons2.forEach(button => {
     video.currentTime = 0;
     video.play();
 
-    // Redirige dès que la vidéo est terminée
     video.onended = () => {
       window.location.href = target;
     };
