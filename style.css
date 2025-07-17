@@ -177,7 +177,7 @@ html, body {
 #transitionVideo2 {
   display: none;
   position: fixed;
-  inset: 0; /* top: 0; right: 0; bottom: 0; left: 0; raccourci */
+  inset: 0;
   width: 100vw;
   height: 100vh;
   z-index: 1000;
