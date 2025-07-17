@@ -238,15 +238,15 @@ html, body {
   object-fit: cover;
 }
 
-/* --------------------- PAGE OSLO --------------------- */
-.oslo-container {
+/* --------------------- PAGE COPENHAGUE2 --------------------- */
+.copenhague2-container {
   position: relative;
   width: 100%;
   min-height: 100vh;
   overflow: hidden; /* pour éviter les débordements */
 }
 
-.oslo-fond {
+.copenhague2-fond {
   position: fixed;
   top: 0;
   left: 0;
@@ -256,15 +256,15 @@ html, body {
   z-index: 1;
 }
 
-/* --------------------- PAGE HAMAR --------------------- */
-.hamar-container {
+/* --------------------- PAGE OSLO --------------------- */
+.oslo-container {
   position: relative;
   width: 100%;
   min-height: 100vh;
   overflow: hidden; /* pour éviter les débordements */
 }
 
-.hamar-fond {
+.oslo-fond {
   position: fixed;
   top: 0;
   left: 0;
