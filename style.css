@@ -174,7 +174,7 @@ html, body {
   z-index: -1; /* En arrière-plan */
   pointer-events: none; /* Pour ne pas bloquer les clics */
 }
-#transionVideo2 {
+#transitionVideo2 {
   display: none;
   position: fixed;
   inset: 0; /* top: 0; right: 0; bottom: 0; left: 0; raccourci */
