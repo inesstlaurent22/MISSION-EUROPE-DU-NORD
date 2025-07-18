@@ -243,18 +243,16 @@ html, body {
 .transitionVideo2 {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: black;
+  inset: 0;
   z-index: 9999;
+  background-color: black;
 }
 
-.transitionVideo2 img {
+.transitionVideo2 video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 /* --------------------- PAGE COPENHAGUE --------------------- */
