@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ✈️ Transition Avion
+document.addEventListener("DOMContentLoaded", function () {
   const avion = document.getElementById("transitionVideo2");
   const transitionButtons2 = document.querySelectorAll(".transitionButton2");
 
@@ -34,12 +35,13 @@ document.addEventListener("DOMContentLoaded", function () {
         avion.style.display = "block";
         setTimeout(() => {
           window.location.href = target;
-        }, 4000);
+        }, 4000); // 4 secondes pour laisser l'animation se jouer
       } else {
         window.location.href = target;
       }
     });
   });
+});
 
   // 🚆 Transition Train
   const train = document.getElementById("transitionVideoContainer3");
