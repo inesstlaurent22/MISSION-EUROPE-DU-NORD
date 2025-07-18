@@ -195,32 +195,6 @@ html, body {
   background-color: black;
 }
 
-/* (Optionnel) pour centrer les boutons de navigation */
-.carte-button,
-.boutondroit-button,
-.boutongauche-button {
-  position: absolute;
-  z-index: 10;
-}
-
-/* Tu peux ajuster les positions si besoin */
-.carte-button {
-  top: 20px;
-  left: 20px;
-}
-
-.boutondroit-button {
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-}
-
-.boutongauche-button {
-  top: 50%;
-  left: 20px;
-  transform: translateY(-50%);
-}
-
 /* --------------------- PAGE ROTTERDAM --------------------- */
 .rotterdam-page {
   position: relative;
