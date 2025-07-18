@@ -1,55 +1,64 @@
-// Transition Baleine (1)
 document.addEventListener("DOMContentLoaded", function () {
-  const baleine = document.getElementById('transitionVideoContainer');
-  const transitionButtons = document.querySelectorAll('.transitionButton');
+  // 🚢 Transition Baleine
+  const baleine = document.getElementById("transitionVideoContainer");
+  const transitionButtons1 = document.querySelectorAll(".transitionButton");
 
-  transitionButtons.forEach(button => {
+  transitionButtons1.forEach((button) => {
     button.addEventListener("click", function (e) {
       e.preventDefault();
       const target = this.getAttribute("data-target");
       if (!target) return;
 
-      baleine.style.display = 'block';
-
-      setTimeout(() => {
+      if (baleine) {
+        baleine.style.display = "block";
+        setTimeout(() => {
+          window.location.href = target;
+        }, 1200);
+      } else {
         window.location.href = target;
-      }, 1200);
+      }
     });
   });
-});
 
-    // Transition Avion (2)
-  document.addEventListener("DOMContentLoaded", function () {
-  const avion = document.getElementById('transitionVideo2');
-  const transitionButtons = document.querySelectorAll('.transitionButton2');
+  // ✈️ Transition Avion
+  const avion = document.getElementById("transitionVideo2");
+  const transitionButtons2 = document.querySelectorAll(".transitionButton2");
 
-  transitionButtons.forEach(button => {
+  transitionButtons2.forEach((button) => {
     button.addEventListener("click", function (e) {
       e.preventDefault();
       const target = this.getAttribute("data-target");
       if (!target) return;
 
-      avion.style.display = 'block';
-      setTimeout(() => {
+      if (avion) {
+        avion.style.display = "block";
+        setTimeout(() => {
+          window.location.href = target;
+        }, 4000);
+      } else {
         window.location.href = target;
-      }, 4000);
+      }
     });
   });
-    
-  // Transition Train (3)
-  const train = document.getElementById('transitionVideoContainer3');
-  const transitionButtons3 = document.querySelectorAll('.transitionButton3');
 
-  transitionButtons3.forEach(button => {
+  // 🚆 Transition Train
+  const train = document.getElementById("transitionVideoContainer3");
+  const transitionButtons3 = document.querySelectorAll(".transitionButton3");
+
+  transitionButtons3.forEach((button) => {
     button.addEventListener("click", function (e) {
       e.preventDefault();
       const target = this.getAttribute("data-target");
       if (!target) return;
 
-      train.style.display = 'block';
-      setTimeout(() => {
+      if (train) {
+        train.style.display = "block";
+        setTimeout(() => {
+          window.location.href = target;
+        }, 3000);
+      } else {
         window.location.href = target;
-      }, 3000);
+      }
     });
   });
 });
