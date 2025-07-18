@@ -1,7 +1,7 @@
-  // Transition Baleine (1)
+// Transition Baleine (1)
 document.addEventListener("DOMContentLoaded", function () {
-const baleine = document.getElementById('transitionVideoContainer');
-const transitionButtons = document.querySelectorAll('.transitionButton');
+  const baleine = document.getElementById('transitionVideoContainer');
+  const transitionButtons = document.querySelectorAll('.transitionButton');
 
   transitionButtons.forEach(button => {
     button.addEventListener("click", function (e) {
@@ -10,11 +10,13 @@ const transitionButtons = document.querySelectorAll('.transitionButton');
       if (!target) return;
 
       baleine.style.display = 'block';
+
       setTimeout(() => {
         window.location.href = target;
       }, 1200);
     });
   });
+});
 
     // Transition Avion (2)
   document.addEventListener("DOMContentLoaded", function () {
