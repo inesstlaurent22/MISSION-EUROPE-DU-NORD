@@ -155,6 +155,56 @@ html, body {
   display: block;
 }
 
+/* --------------------- BOUTONS GENERALES --------------------- */
+.carte-button {
+  position: absolute;
+  top: 43px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.carte {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+/* Animation tremblement */
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0, 0); }
+}
+
+.carte-button:hover .carte {
+  animation: shake 0.4s ease-in-out;
+  filter:
+    drop-shadow(0 0 8px white)
+    drop-shadow(0 0 16px white)
+    drop-shadow(0 0 24px white);
+}
+
+.boutongauche-button,
+.boutondroit-button {
+  position: absolute;
+  bottom: 30px;
+  z-index: 5;
+}
+
+.boutongauche-button { left: 30px; }
+.boutondroit-button  { right: 30px; }
+
+.BG, .BD {
+  width: 106.79px;
+  height: 109px;
+  cursor: pointer;
+}
+
 /* --------------------- PAGE ROTTERDAM --------------------- */
 .rotterdam-page {
   position: relative;
@@ -219,20 +269,6 @@ html, body {
   display: block;
   z-index: 1;
 }
-#transitionVideoContainer3 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  z-index: 9999;
-}
-#transitionVideoContainer3 video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 /* --------------------- PAGE COPENHAGUE2 --------------------- */
 .copenhague2-container {
@@ -288,52 +324,3 @@ html, body {
   z-index: 1;
 }
 
-/* --------------------- BOUTONS GENERALES --------------------- */
-.carte-button {
-  position: absolute;
-  top: 43px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 5;
-}
-
-.carte {
-  width: 160px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
-}
-
-/* Animation tremblement */
-@keyframes shake {
-  0% { transform: translate(0, 0); }
-  20% { transform: translate(-2px, 2px); }
-  40% { transform: translate(2px, -2px); }
-  60% { transform: translate(-2px, 2px); }
-  80% { transform: translate(2px, -2px); }
-  100% { transform: translate(0, 0); }
-}
-
-.carte-button:hover .carte {
-  animation: shake 0.4s ease-in-out;
-  filter:
-    drop-shadow(0 0 8px white)
-    drop-shadow(0 0 16px white)
-    drop-shadow(0 0 24px white);
-}
-
-.boutongauche-button,
-.boutondroit-button {
-  position: absolute;
-  bottom: 30px;
-  z-index: 5;
-}
-
-.boutongauche-button { left: 30px; }
-.boutondroit-button  { right: 30px; }
-
-.BG, .BD {
-  width: 106.79px;
-  height: 109px;
-  cursor: pointer;
-}
