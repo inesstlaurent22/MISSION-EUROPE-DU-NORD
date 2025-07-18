@@ -1,43 +1,33 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paris</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body class>
+<body>
 
 <div class="paris-container">
   <img src="images/Fond/Parisfond.png" alt="Image de fond paris" class="paris-fond">
 </div>
 
-    <div class="carte-button">
-      <a href="menu.html">
-        <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte">
-      </a>
-    </div>
-    
-    <div class="boutondroit-button">
-      <a href="copenhague.html">
-        <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD">
-      </a>
-    </div>
+<div class="carte-button">
+  <a href="menu.html" class="transitionButton2" data-target="menu.html">
+    <img src="images/Bouton/Cartelivre.png" alt="Carte livre" class="carte">
+  </a>
+</div>
 
-    <div class="boutongauche-button">
-      <a href="rotterdam.html">
-        <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG">
-      </a>
-    </div>
+<div class="boutondroit-button">
+  <a href="copenhague.html" class="transitionButton2" data-target="copenhague.html">
+    <img src="images/Bouton/Boutondroit.png" alt="Bouton droit" class="BD">
+  </a>
+</div>
 
-      <div id="transitionVideo2" class="avion" style="display: none;">
-      <video id="videoAvion" class="avion" autoplay muted>
-        <source src="videos/Aviontransition.mov" type="video/mp4" />
-        Ton navigateur ne supporte pas la lecture vidéo.
-      </video>
-    </div>
-  </div>
+<div class="boutongauche-button">
+  <a href="rotterdam.html" class="transitionButton2" data-target="rotterdam.html">
+    <img src="images/Bouton/Boutongauche.png" alt="Bouton gauche" class="BG">
+  </a>
+</div>
 
-  <script src="script.js"></script>
+<div id="transitionVideo2" class="avion" style="display: none;">
+  <video id="videoAvion" class="avion" autoplay muted playsinline>
+    <source src="videos/Aviontransition.mov" type="video/mp4" />
+    Ton navigateur ne supporte pas la lecture vidéo.
+  </video>
+</div>
+
+<script src="script.js"></script>
 </body>
-</html>
