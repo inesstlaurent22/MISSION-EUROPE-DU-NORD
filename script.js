@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // ✈️ Transition Avion
 document.addEventListener("DOMContentLoaded", function () {
+  // ✈️ Transition Avion
   const avion = document.getElementById("transitionVideo2");
   const transitionButtons2 = document.querySelectorAll(".transitionButton2");
 
